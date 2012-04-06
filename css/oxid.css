@@ -1,0 +1,186 @@
+body {
+	background-color: #a5735c;
+	//background-image: url("../back/moon.jpg");
+	color: black;
+	font: medium helvetica
+}
+
+body.menu {
+	background-color: #a5735c;
+	background-image: url("../gfx/dust_cloud.png");
+	color: white
+}
+
+a { text-decoration: none }
+a:link {color: #ffd2a8}
+a.negative:link {
+	color: white;
+	background-color: #786000
+}
+a:visited { color: #ca9a6c}
+a:active { color: white}
+a:hover { color: orange }
+
+img {
+	behavior:	url("pngbehavior.htc");
+}
+
+/*
+h1 {background-color: #00ff00}
+h2 {background-color: transparent}
+p {background-color: rgb(250,0,255)}
+*/
+
+table{
+	border-collapse: separate;
+	border: 2px
+}
+
+td.a {
+	text-align: center;
+	background-color: #40322b;
+	color: white;
+	font: large impact
+}
+
+td.b {
+	text-align: center;
+	background-color: #784d44;
+	color: white;
+	font: large impact
+}
+
+td.comment {
+	text-align: left;
+	background-color: #eda063;
+	font: x-small arial
+}
+
+/* These are for gradient tables */
+
+td.g1 {
+	text-align: center;
+	background-color: #eda03c;
+}
+th.g1 {
+	text-align: center;
+	background-color: #eda03c;
+	font: large impact
+}
+.g1 a:visited { color: #03600e}
+.g1 a:active { color: #03A00e}
+.g1 a:hover { color: #03A00e}
+
+td.g2 {
+	text-align: center;
+	background-color: #d9a158;
+}
+.g2 a:visited { color: #03600e}
+.g2 a:active { color: #03A00e}
+.g2 a:hover { color: #03A00e}
+
+th.g2 {
+	text-align: center;
+	background-color: #d9a158;
+	font: large impact
+}
+
+td.g3 {
+	text-align: center;
+	background-color: #cfa063;
+}
+
+th.g3 {
+	text-align: center;
+	background-color: #cfa063;
+	font: large impact
+}
+.g3 a:visited { color: #03600e}
+.g3 a:active { color: #03A00e}
+.g3 a:hover { color: #03A00e}
+
+
+
+td.g4 {
+	text-align: center;
+	background-color: #ddba8c;
+}
+th.g4 {
+	text-align: center;
+	background-color: #ddba8c;
+	font: large impact
+}
+.g4 a:link { color: #603030}
+.g4 a:visited { color: #03600e}
+.g4 a:active { color: #03A00e}
+.g4 a:hover { color: #03A00e}
+
+
+td.g5 {
+	text-align: center;
+	background-color: #eacda6;
+}
+th.g5 {
+	text-align: center;
+	background-color: #eacda6;
+	font: large impact
+}
+.g5 a:link { color: #603030}
+.g5 a:visited { color: #03600e}
+.g5 a:active { color: #03A00e}
+.g5 a:hover { color: #03A00e}
+
+
+/* "temperatures" or marks */
+td.s1 { /* lowest score */
+	text-align: center;
+	background-color: #e54023;
+	font: large impact
+}
+td.s2 { 
+	text-align: center;
+	background-color: #e56323;
+	font: large impact
+}
+td.s3 { 
+	text-align: center;
+	background-color: #e59023;
+	font: large impact
+}
+td.s4 { 
+	text-align: center;
+	background-color: #e5bb23;
+	font: large impact
+}
+td.s5 { 
+	text-align: center;
+	background-color: #faf311;
+	font: large impact
+}
+td.s6 { 
+	text-align: center;
+	background-color: #b9e91c;
+	font: large impact
+}
+td.s7 { 
+	text-align: center;
+	background-color: #90e91c;
+	font: large impact
+}
+td.s8 { 
+	text-align: center;
+	background-color: #3ee91c;
+	font: large impact
+}
+td.s9 { 
+	text-align: center;
+	background-color: #16f130;
+	font: large impact
+}
+td.s0 { /* highest score */
+	text-align: center;
+	background-color: #49ffcb;
+	font: large impact
+}
+
+

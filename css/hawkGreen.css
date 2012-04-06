@@ -1,0 +1,93 @@
+body {
+	background-color: black;
+	background-image: url("../back/green.jpg");
+	color: white;
+	font: medium helvetica
+}
+
+body.menu {
+	background-color: black;
+	background-image: url("../back/green-bar.jpg");
+	color: white
+}
+
+a { text-decoration: none }
+a:link {color: #BBCCFF}
+a.negative:link {
+	color: white;
+	background-color: #780dad
+}
+a:visited { color: #BBBB55}
+a:active { color: #BBFF66}
+a:hover { color: orange }
+
+
+table{
+	border-collapse: separate;
+	border: 2px
+}
+
+td.a {
+	text-align: center;
+	background-color: #6b8e23;
+	font: large impact
+}
+
+td.b {
+	text-align: center;
+	background-color: #556b2f;
+	font: large impact
+}
+
+/* "temperatures" or marks */
+td.s1 { /* lowest score */
+	text-align: center;
+	background-color: #e54023;
+	font: large impact
+}
+td.s2 { 
+	text-align: center;
+	background-color: #e56323;
+	font: large impact
+}
+td.s3 { 
+	text-align: center;
+	background-color: #e59023;
+	font: large impact
+}
+td.s4 { 
+	text-align: center;
+	background-color: #e5bb23;
+	font: large impact
+}
+td.s5 { 
+	text-align: center;
+	background-color: #faf311;
+	font: large impact
+}
+td.s6 { 
+	text-align: center;
+	background-color: #b9e91c;
+	font: large impact
+}
+td.s7 { 
+	text-align: center;
+	background-color: #90e91c;
+	font: large impact
+}
+td.s8 { 
+	text-align: center;
+	background-color: #3ee91c;
+	font: large impact
+}
+td.s9 { 
+	text-align: center;
+	background-color: #16f130;
+	font: large impact
+}
+td.s0 { /* highest score */
+	text-align: center;
+	background-color: #49ffcb;
+	font: large impact
+}
+
